@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    background-color: black;
+    
+}
+
+.Home{
+    width: 20rem;
+    background-color: transparent;
+    height: 20rem;
+    transition: transform 2s linear;
+    border-radius: 100%;
+    border: 10px solid rgb(238, 4, 4) ;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px -2px 10px rgb(255, 34, 4),
+    0px 0px 10px red, inset 0px -2px 10px rgb(255, 34, 4),
+    0px 0px 10px red;
+}
+
+a{
+    position: relative;
+    color:rgb(28, 255, 7);
+    font-size:large;
+    transform: rotateZ(var(--i)) translatex(1rem);
+    margin-left: -0.6rem;
+    left:0.6rem;
+    box-shadow: 
+    0px 0px 30px rgb(240, 247, 216);
+    z-index: -5;
+}
+.hour{
+    
+    transform-origin: bottom;
+    background-color: rgb(252, 0, 0);
+    margin-top: 5rem;
+    width: 1rem;
+    height: 5rem;
+    transform-origin: bottom;
+    border-radius: 35%;
+    position: absolute;
+    box-shadow: 0px 0px 10px rgb(255, 34, 4);
+    z-index: 1;
+}
+.min{
+    transform-origin: bottom;
+    position: absolute;
+    background-color: rgb(0, 47, 255);
+    margin-top: 2rem;
+    width: 1rem;
+    height: 8rem;
+    transform-origin: bottom;
+    border-radius: 35%;
+    box-shadow: 0px 0px 10px rgb(0, 47, 255);
+}
+
+.sec{
+    position: absolute;
+    background-color: rgb(255, 196, 0);
+    width: 1rem;
+    height: 10rem;
+    transform-origin: bottom;
+    border-radius: 35%;
+    box-shadow: 0px 0px 10px rgb(255, 196, 0),
+    0px 0px 2px rgb(255, 196, 0);
+    z-index: -1;
+}
+
+
+
+
